@@ -8,9 +8,9 @@ module "s3-webapp" {
   name        = var.name
   region = var.region
   prefix = var.prefix
-  version = "1.0.0"
+  version = "0.13.2"
 }
 
 terraform {
-  required_version = "v0.13.2"
+  required_version = "0.13.2"
 }
