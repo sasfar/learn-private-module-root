@@ -3,7 +3,8 @@ provider "aws" {
 }
 
 module "s3-webapp" {
-  source  = "app.terraform.io/SAASGlobal/terraform/s3-webapp/aws"
+  #source  = "app.terraform.io/SAASGlobal/terraform/s3-webapp/aws"
+  source = "https://github.com/sasfar/learn-private-module-root/blob/master/main.tf"
   name        = var.name
   region = var.region
   prefix = var.prefix
