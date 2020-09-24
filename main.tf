@@ -11,5 +11,5 @@ module "s3-webapp" {
 }
 
 terraform {
-  required_version = "Terraform v0.13.2"
+  required_version = "v0.13.2"
 }
